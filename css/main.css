@@ -69,3 +69,8 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~ CSS ~~~~~~~~~~~~~~~~~~~~~ */
+body {
+  background-color: rgba(128, 128, 128, 0.15);
+}
