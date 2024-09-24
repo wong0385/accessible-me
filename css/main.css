@@ -73,4 +73,31 @@ form button {
 /* ~~~~~~~~~~~~~~~~~~~~~ CSS ~~~~~~~~~~~~~~~~~~~~~ */
 body {
   background-color: rgba(128, 128, 128, 0.15);
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  color: maroon;
+}
+
+h1 {
+  font-size: 2.75rem;
+  background-color: darkgrey;
+  color: white;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+form input:focus {
+  border: 2px solid darkred;
+}
+
+form textarea:focus {
+  border: 2px solid darkred;
 }
