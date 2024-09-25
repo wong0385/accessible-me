@@ -71,6 +71,8 @@ form button {
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~ CSS ~~~~~~~~~~~~~~~~~~~~~ */
+
+/* increase the contrast of content */
 body {
   background-color: rgba(128, 128, 128, 0.15);
   font-size: 16px;
@@ -78,11 +80,12 @@ body {
 
 h1, h2, h3 {
   color: maroon;
+  padding-top: 1.5rem;
 }
 
 h1 {
   font-size: 2.75rem;
-  background-color: darkgrey;
+  background-color: maroon;
   color: white;
 }
 
@@ -100,4 +103,18 @@ form input:focus {
 
 form textarea:focus {
   border: 2px solid darkred;
+}
+
+/* make the skiplinks visible when tab */
+.skip {
+  position: absolute;
+  top: -100em;
+  color: white;
+}
+
+.skip:focus {
+  top: 0px;
+  background-color: cornflowerblue;
+  display: block;
+  padding: 15px;
 }
